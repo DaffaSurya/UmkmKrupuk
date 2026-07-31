@@ -1,0 +1,69 @@
+<header id="mainHeader" class="header-nav">
+  <div class="container header-container">
+    <a href="#hero" class="logo-brand">
+      <div class="logo-icon">
+        <img src="Asset/Logo.jpeg" alt="Logo Abdi Barokah" class="logo-img">
+      </div>
+      <div class="logo-text-wrapper">
+        <span class="logo-title">Abdi Barokah</span>
+        <span class="logo-subtitle">Kerupuk Bawang Kedali</span>
+      </div>
+    </a>
+
+    <nav class="nav-menu">
+      <a href="#hero" class="nav-link active">Beranda</a>
+      <a href="#about" class="nav-link">Tentang Kami</a>
+      <a href="#values" class="nav-link">Keunggulan</a>
+      <a href="#products" class="nav-link">Produk</a>
+      <a href="#gallery" class="nav-link">Galeri</a>
+      <a href="#testimonials" class="nav-link">Testimoni</a>
+      <a href="#contact" class="nav-link">Kontak</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button id="cartBtn" class="cart-button" title="Lihat Keranjang Pesanan">
+        <span class="material-symbols-outlined">shopping_cart</span>
+        <span id="cartBadge" class="cart-badge">1</span>
+      </button>
+      <a href="#products" class="btn btn-primary btn-sm btn-header-wa">
+        <span class="material-symbols-outlined">chat</span> <span class="nav-btn-text">Pesan WA</span>
+      </a>
+      <button id="mobileMenuToggle" class="mobile-toggle-btn" aria-label="Buka Menu Navigasi">
+        <span class="material-symbols-outlined">menu</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- MOBILE NAVIGATION DRAWER & BACKDROP -->
+<div id="mobileNavBackdrop" class="mobile-drawer-backdrop"></div>
+<aside id="mobileNavDrawer" class="mobile-drawer">
+  <div class="mobile-drawer-header">
+    <div class="logo-brand">
+      <div class="logo-icon">
+        <img src="Asset/Logo.jpeg" alt="Logo Abdi Barokah" class="logo-img">
+      </div>
+      <div class="logo-text-wrapper">
+        <span class="logo-title">Abdi Barokah</span>
+        <span class="logo-subtitle">Kerupuk Bawang Kedali</span>
+      </div>
+    </div>
+    <button id="mobileMenuClose" class="mobile-drawer-close" aria-label="Tutup Menu">
+      <span class="material-symbols-outlined">close</span>
+    </button>
+  </div>
+  <nav class="mobile-drawer-nav">
+    <a href="#hero" class="mobile-drawer-link active"><span class="material-symbols-outlined">home</span> Beranda</a>
+    <a href="#about" class="mobile-drawer-link"><span class="material-symbols-outlined">info</span> Tentang Kami</a>
+    <a href="#values" class="mobile-drawer-link"><span class="material-symbols-outlined">verified</span> Keunggulan</a>
+    <a href="#products" class="mobile-drawer-link"><span class="material-symbols-outlined">storefront</span> Produk Kami</a>
+    <a href="#gallery" class="mobile-drawer-link"><span class="material-symbols-outlined">photo_library</span> Galeri Usaha</a>
+    <a href="#testimonials" class="mobile-drawer-link"><span class="material-symbols-outlined">rate_review</span> Testimoni</a>
+    <a href="#contact" class="mobile-drawer-link"><span class="material-symbols-outlined">contact_phone</span> Informasi Kontak</a>
+  </nav>
+  <div class="mobile-drawer-footer">
+    <a href="#products" id="mobileDrawerWaBtn" class="btn btn-primary" style="width: 100%;">
+      <span class="material-symbols-outlined">chat</span> Pesan via WhatsApp
+    </a>
+  </div>
+</aside>

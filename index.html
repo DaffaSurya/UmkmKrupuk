@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdi Barokah | Kerupuk Bawang Khas Desa Kedali Lamongan</title>
+  <meta name="description" content="Kerupuk Bawang gurih dan renyah khas Desa Kedali, Lamongan. Diproduksi higienis sejak 2014 oleh Ibu Siti Solikhah (Abdi Barokah). Pesan langsung via WhatsApp!">
+  <meta name="keywords" content="Kerupuk Bawang, Abdi Barokah, Desa Kedali, Kerupuk Lamongan, UMKM Kedali, Kerupuk Renyah, Kerupuk Gurih">
+  
+  <!-- Fonts & Material Symbols -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Source+Serif+4:ital,opsz,wght@0,8..60,600;0,8..60,700;1,8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+  
+  <!-- Global Design System Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Toast Notification Container -->
+  <div id="toastContainer" class="toast-container"></div>
+
+  <!-- CLEAN ARCHITECTURE - MODULAR VIEW COMPONENTS -->
+  <div data-component="header"></div>
+  
+  <main>
+    <div data-component="hero"></div>
+    <div data-component="about"></div>
+    <div data-component="values"></div>
+    <div data-component="products"></div>
+    <div data-component="gallery"></div>
+    <div data-component="testimonials"></div>
+    <div data-component="contact"></div>
+  </main>
+
+  <div data-component="footer"></div>
+  <div data-component="modal"></div>
+
+  <!-- CLEAN ARCHITECTURE - ES6 APPLICATION MODULE -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
