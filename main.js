@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // State Management
   const state = {
     cart: [
-      { id: 'p1', name: 'Kerupuk Bawang Bulat', price: 15000, unit: '250g', qty: 1 }
+      { id: 'p1', name: 'Kerupuk Bawang Bulat belum digoreng', price: 5000, unit: '250g', qty: 1 }
     ],
     whatsappNumber: '6281249201501' // Nomor pemilik UMKM Abdi Barokah
   };
@@ -27,12 +27,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Product Prices Mapping
   const prices = {
-    'Kerupuk Bawang Bulat (250g)': 15000,
-    'Kerupuk Bawang Panjang (250g)': 15000,
-    'Kerupuk Bawang Bulat (500g)': 28000,
-    'Kerupuk Bawang Panjang (500g)': 28000,
-    'Kerupuk Mentah Siap Goreng (500g)': 25000,
-    'Kerupuk Mentah Siap Goreng (1kg)': 48000
+    'Kerupuk Bawang Bulat belum digoreng (250g)': 5000,
+    'Kerupuk Bawang Bulat sudah digoreng (15 Pcs)': 12500,
+    'Kerupuk Bawang lonjong mentah (250g)': 5000
   };
 
   // 1. Sticky Header Scroll Effect

@@ -12,10 +12,7 @@ export const CONFIG = {
 };
 
 export const PRODUCT_PRICES = {
-  'Kerupuk Bawang Bulat (250g)': 15000,
-  'Kerupuk Bawang Panjang (250g)': 15000,
-  'Kerupuk Bawang Bulat (500g)': 28000,
-  'Kerupuk Bawang Panjang (500g)': 28000,
-  'Kerupuk Mentah Siap Goreng (500g)': 25000,
-  'Kerupuk Mentah Siap Goreng (1kg)': 48000
+  'Kerupuk Bawang Bulat belum digoreng (250g)': 5000,
+  'Kerupuk Bawang Bulat sudah digoreng (15 Pcs)': 12500,
+  'Kerupuk Bawang lonjong mentah (250g)': 5000
 };
