@@ -13,6 +13,6 @@ export const CONFIG = {
 
 export const PRODUCT_PRICES = {
   'Kerupuk Bawang Bulat belum digoreng (250g)': 5000,
-  'Kerupuk Bawang Bulat sudah digoreng (15 Pcs)': 12500,
+  'Kerupuk Bawang Bulat sudah digoreng (15 Pcs)': 2500,
   'Kerupuk Bawang lonjong mentah (250g)': 5000
 };
