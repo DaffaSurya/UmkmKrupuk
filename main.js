@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cart: [
       { id: 'p1', name: 'Kerupuk Bawang Bulat belum digoreng', price: 5000, unit: '250g', qty: 1 }
     ],
-    whatsappNumber: '6281249201501' // Nomor pemilik UMKM Abdi Barokah
+    whatsappNumber: '6287700332525' // Nomor pemilik UMKM Abdi Barokah
   };
 
   // DOM Elements
