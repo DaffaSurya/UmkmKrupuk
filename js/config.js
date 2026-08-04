@@ -6,7 +6,7 @@
 export const CONFIG = {
   appName: 'Abdi Barokah',
   ownerName: 'Ibu Siti Solikhah',
-  whatsappNumber: '6287700332525',
+  whatsappNumber: '6282335785662',
   address: 'Desa Kedali RT 04 RW 02, Kec. Pucuk, Kab. Lamongan, Jawa Timur',
   operatingHours: 'Setiap Hari: 07.00 - 17.00 WIB'
 };
